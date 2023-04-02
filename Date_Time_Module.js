@@ -105,39 +105,37 @@ function Standard_Time(){
 			    hour=01;
 			    break;
 			case 14:
-                hour=02;
+                	    hour=02;
 			    break;
 			case 15:
-                hour=03;
+                	    hour=03;
 			    break;
 			case 16:
-                hour=04;
+               		     hour=04;
 			    break;
 			case 17:
-                hour=05;
+                	    hour=05;
 			    break;
 			case 18:
-                hour=06;
+                	    hour=06;
 			    break;
 			case 19:
-                hour=07;
+                	    hour=07;
 			    break;
 			case 20:
-                hour=08;
+                	    hour=08;
 			    break;
 			case 21:
-                hour=09;
+                	    hour=09;
 			    break;
 			case 22:
-                hour=10;
+                	    hour=10;
 			    break;
 			case 23:
-                hour=11;
+                    	    hour=11;
 			    break;
 			default:
-                hour=12;
-			   
-
+               	           hour=12;
 		}
 	}
     var Time=hour+":"+Minutes+":"+Seconds+" "+period;
@@ -159,11 +157,11 @@ function Railway_Time(){
     else{
         Seconds=date.getSeconds();
     }
-	if(date.getHours()<10){
-		hour="0"+date.getHours();
+   if(date.getHours()<10){
+	hour="0"+date.getHours();
 	}
-	else{
-		hour=date.getHours();
+    else{
+	hour=date.getHours();
 	}
     var Time=hour+":"+Minutes+":"+Seconds;
     return Time;
